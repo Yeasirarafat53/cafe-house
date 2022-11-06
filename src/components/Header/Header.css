@@ -1,0 +1,69 @@
+.tm-handwriting-font {
+  font-family: 'Damion', cursive;
+}
+.tm-top-header {
+  background: black;
+  color: white;
+}
+.tm-site-logo,
+.tm-site-name {
+  vertical-align: bottom;
+}
+.tm-site-name {
+  color: #c79c60;
+  display: inline-block;
+  font-size: 32px;
+  margin: 0 10px;
+}
+.tm-logo-container {
+  padding: 10px 0;
+}
+.tm-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.tm-nav li {
+  list-style: none;
+  float: left;
+}
+.tm-nav li a {
+  color: white;
+  display: inline-block;
+  padding: 15px 15px 20px 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.tm-nav li .nav {
+  color: #c79c60;
+  text-decoration: none;
+}
+.tm-nav li .active {
+  background: url(/images/logo.png) no-repeat,
+    url(/images/nav-underline.png) no-repeat;
+  background-size: 20px, 74px 17px;
+  background-position: 0% 30%, center bottom;
+}
+.tm-top-header-inner {
+  display: flex;
+
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mobile-menu-icon {
+  display: none;
+}
+.tm-section {
+  margin-bottom: 60px;
+}
+.tm-section-margin-bottom-0 {
+  margin-bottom: 0;
+}
